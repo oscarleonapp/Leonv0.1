@@ -411,41 +411,121 @@ CONTENEDORES
 }
 
 /* Tamaño Grande - Computadoras y TV */
-.col-1 {
+.pc-col-1 {
   grid-template-columns: repeat(1, 1fr);
 }
-.col-2 {
+.pc-col-2 {
   grid-template-columns: repeat(2, 1fr);
 }
-.col-3 {
+.pc-col-3 {
   grid-template-columns: repeat(3, 1fr);
 }
-.col-4 {
+.pc-col-4 {
   grid-template-columns: repeat(4, 1fr);
 }
-.col-5 {
+.pc-col-5 {
   grid-template-columns: repeat(5, 1fr);
 }
-.col-6 {
+.pc-col-6 {
   grid-template-columns: repeat(6, 1fr);
 }
-.col-7 {
+.pc-col-7 {
   grid-template-columns: repeat(7, 1fr);
 }
-.col-8 {
+.pc-col-8 {
   grid-template-columns: repeat(8, 1fr);
 }
-.col-9 {
+.pc-col-9 {
   grid-template-columns: repeat(9, 1fr);
 }
-.col-10 {
+.pc-col-10 {
   grid-template-columns: repeat(10, 1fr);
 }
-.col-11 {
+.pc-col-11 {
   grid-template-columns: repeat(11, 1fr);
 }
-.col-12 {
+.pc-col-12 {
   grid-template-columns: repeat(12, 1fr);
+}
+
+/* Tamaño mediano - Tablets */
+@media screen and (max-width: 992px) {
+  .tablet-col-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .tablet-col-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .tablet-col-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .tablet-col-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .tablet-col-5 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .tablet-col-6 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .tablet-col-7 {
+    grid-template-columns: repeat(7, 1fr);
+  }
+  .tablet-col-8 {
+    grid-template-columns: repeat(8, 1fr);
+  }
+  .tablet-col-9 {
+    grid-template-columns: repeat(9, 1fr);
+  }
+  .tablet-col-10 {
+    grid-template-columns: repeat(10, 1fr);
+  }
+  .tablet-col-11 {
+    grid-template-columns: repeat(11, 1fr);
+  }
+  .tablet-col-12 {
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
+
+/* Tamaño mediano - mobil */
+@media screen and (max-width: 576px) {
+  .mobil-col-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .mobil-col-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .mobil-col-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .mobil-col-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .mobil-col-5 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .mobil-col-6 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .mobil-col-7 {
+    grid-template-columns: repeat(7, 1fr);
+  }
+  .mobil-col-8 {
+    grid-template-columns: repeat(8, 1fr);
+  }
+  .mobil-col-9 {
+    grid-template-columns: repeat(9, 1fr);
+  }
+  .mobil-col-10 {
+    grid-template-columns: repeat(10, 1fr);
+  }
+  .mobil-col-11 {
+    grid-template-columns: repeat(11, 1fr);
+  }
+  .mobil-col-12 {
+    grid-template-columns: repeat(12, 1fr);
+  }
 }
 
 /* ########### COMPONENTE ###########*/
