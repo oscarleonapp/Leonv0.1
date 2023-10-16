@@ -396,3 +396,46 @@ CONTENEDORES
   margin: 20px auto;
   overflow: auto;
 }
+
+.contenedor-ancho {
+  width: 100%;
+  padding: 0 4px;
+  margin: 20px auto;
+}
+
+/* ########### 
+COMPONENTE 
+###########*/
+.card {
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0px 0px 30px rgba(221, 221, 221, 0.3);
+}
+
+/* ########### 
+FUENTES 
+###########*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+.display-1 {
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.display-2 {
+  font-weight: 700;
+  font-size: 54px;
+}
+
+.display-3 {
+  font-weight: 700;
+  font-size: 44px;
+}
