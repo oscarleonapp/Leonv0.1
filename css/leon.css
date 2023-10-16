@@ -351,13 +351,48 @@ template {
   display: none;
 }
 
-/* ========== CONFIGURACIÓN ========== */
+/* ###########
+ CONFIGURACIÓN 
+ ########### */
 *,
 *::after,
 *::before {
   box-sizing: border-box;
 }
 
-/* ========== VARIABLES ========== */
+/* ###########
+ VARIABLES 
+ ########### */
 :root {
+  --fuente: "IBM Plex Sans", sans-serif;
+  --fondo: #f2f2f2;
+  --ancho-contenedor: 1200px;
+}
+
+/* ###########
+ ESTILOS GENERALES 
+ ###########*/
+body {
+  background-color: var(--fondo);
+  font-family: var(--fuente);
+  font-size: 18px;
+}
+
+p {
+  line-height: 27px;
+}
+
+img {
+  vertical-align: top;
+  width: 100%;
+}
+
+/* ########### 
+CONTENEDORES 
+###########*/
+.contenedor {
+  max-width: 90%;
+  width: var(--ancho-contenedor);
+  margin: 20px auto;
+  overflow: auto;
 }
