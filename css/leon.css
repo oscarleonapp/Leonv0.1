@@ -449,40 +449,40 @@ CONTENEDORES
 }
 
 /* Expandir columnas */
-.span-1 {
+.pc-span-1 {
   grid-column: span 1;
 }
-.span-2 {
+.pc-span-2 {
   grid-column: span 2;
 }
-.span-3 {
+.pc-span-3 {
   grid-column: span 3;
 }
-.span-4 {
+.pc-span-4 {
   grid-column: span 4;
 }
-.span-5 {
+.pc-span-5 {
   grid-column: span 5;
 }
-.span-6 {
+.pc-span-6 {
   grid-column: span 6;
 }
-.span-7 {
+.pc-span-7 {
   grid-column: span 7;
 }
-.span-8 {
+.pc-span-8 {
   grid-column: span 8;
 }
-.span-9 {
+.pc-span-9 {
   grid-column: span 9;
 }
-.span-10 {
+.pc-span-10 {
   grid-column: span 10;
 }
-.span-11 {
+.pc-span-11 {
   grid-column: span 11;
 }
-.span-12 {
+.pc-span-12 {
   grid-column: span 12;
 }
 
@@ -523,6 +523,44 @@ CONTENEDORES
   }
   .tablet-col-12 {
     grid-template-columns: repeat(12, 1fr);
+  }
+
+  /* Expandir columnas */
+  .tablet-span-1 {
+    grid-column: span 1;
+  }
+  .tablet-span-2 {
+    grid-column: span 2;
+  }
+  .tablet-span-3 {
+    grid-column: span 3;
+  }
+  .tablet-span-4 {
+    grid-column: span 4;
+  }
+  .tablet-span-5 {
+    grid-column: span 5;
+  }
+  .tablet-span-6 {
+    grid-column: span 6;
+  }
+  .tablet-span-7 {
+    grid-column: span 7;
+  }
+  .tablet-span-8 {
+    grid-column: span 8;
+  }
+  .tablet-span-9 {
+    grid-column: span 9;
+  }
+  .tablet-span-10 {
+    grid-column: span 10;
+  }
+  .tablet-span-11 {
+    grid-column: span 11;
+  }
+  .tablet-span-12 {
+    grid-column: span 12;
   }
 }
 
@@ -576,6 +614,44 @@ CONTENEDORES
     grid-template-columns: repeat(12, 1fr);
     min-width: 320px;
   }
+
+  /* Expandir columnas */
+  .mobil-span-1 {
+    grid-column: span 1;
+  }
+  .mobil-span-2 {
+    grid-column: span 2;
+  }
+  .mobil-span-3 {
+    grid-column: span 3;
+  }
+  .mobil-span-4 {
+    grid-column: span 4;
+  }
+  .mobil-span-5 {
+    grid-column: span 5;
+  }
+  .mobil-span-6 {
+    grid-column: span 6;
+  }
+  .mobil-span-7 {
+    grid-column: span 7;
+  }
+  .mobil-span-8 {
+    grid-column: span 8;
+  }
+  .mobil-span-9 {
+    grid-column: span 9;
+  }
+  .mobil-span-10 {
+    grid-column: span 10;
+  }
+  .mobil-span-11 {
+    grid-column: span 11;
+  }
+  .mobil-span-12 {
+    grid-column: span 12;
+  }
 }
 
 /* ########### COMPONENTE ###########*/
@@ -584,6 +660,35 @@ CONTENEDORES
   background-color: #fff;
   border-radius: 3px;
   box-shadow: 0px 0px 30px rgba(221, 221, 221, 0.3);
+}
+
+/* Barra de navegación 1 */
+.nav {
+  background-color: black;
+  display: flex;
+  flex-direction: wrap;
+}
+
+.nav .contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.nav a {
+  color: #f2f2f2;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 15px 25px;
+  transition: 0.3s ease all;
+  font-size: 18px;
+}
+.nav a.activo,
+.nav a:hover {
+  background-color: #f2f2f2;
+  color: black;
 }
 
 /* ########### 
