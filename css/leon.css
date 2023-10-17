@@ -12,6 +12,11 @@
   --background-2: #2c323c;
   --background-3: #1c2028;
 
+  /* BUTTONS */
+  --primary-button: #4caf50;
+  --primary-button-hover: #45a049;
+  --primary-button-active: #3e8e41;
+
   --light: #f6f6f9;
   --primary: #1976d2;
   --light-primary: #cfe8ff;
@@ -331,6 +336,8 @@ a {
 }
 
 /* ========= * COMPONENTES * ========= */
+
+/* CARD */
 .card {
   padding: 4rem;
   background-color: var(--blanco);
@@ -338,7 +345,7 @@ a {
   box-shadow: 0px 0px 30px rgba(221, 221, 221, 0.3);
 }
 
-/* Barra de navegación 1 */
+/*NAVBAR*/
 .nav {
   background-color: var(--background-1);
   display: flex;
@@ -367,6 +374,37 @@ a {
   background-color: var(--blanco);
   color: var(--negro);
 }
+
+/* BOTONES */
+.button {
+  background-color: var(--primary-button);
+  border: none;
+  cursor: pointer;
+  color: #eee;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 22px;
+  transition: 0.3s ease all;
+}
+
+.button:hover {
+  background-color: var(--primary-button-hover);
+}
+
+.button a {
+  color: var(--blanco);
+}
+
+/* Agregar otros colores de botones */
+/* .button.color {
+  background-color: bisque;
+}
+
+.button.color:hover {
+  background-color: #f2f2f2;
+} */
 
 /* ########### 
 FUENTES 
@@ -414,35 +452,6 @@ form .input:focus {
   background-color: var(--blanco);
   color: var(--negro);
   outline: none;
-}
-
-.button {
-  background-color: var(--primary);
-  border: none;
-  cursor: pointer;
-  color: #eee;
-  display: inline-block;
-  padding: 10px 15px;
-  border-radius: 3px;
-  text-align: center;
-  line-height: 22px;
-  transition: 0.3s ease all;
-}
-
-.button a {
-  color: var(--blanco);
-}
-
-.button:hover {
-  background-color: var(--verde-claro);
-}
-
-.button.verde {
-  background-color: bisque;
-}
-
-.button.verde:hover {
-  background-color: #f2f2f2;
 }
 
 /* ########### * HELPERS * ###########*/
