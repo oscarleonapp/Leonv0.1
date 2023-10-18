@@ -3,14 +3,16 @@
 
 /* ========= * VARIABLES * ========= */
 :root {
-  --blanco: #ffffff;
-  --verde: #07c373;
-  --verde-claro: #0ae98a;
-  --negro: #000000;
-  --gris: #a4abb6;
   --background-1: #13161c;
   --background-2: #2c323c;
   --background-3: #1c2028;
+
+  /* COLORES A QUEDARSE */
+  --color-principal: #1c2028;
+  --color-fondo: #ecf0f1;
+  --color-blanco: #ffffff;
+  --color-texto: #13161c;
+  --color-cta: #07c373;
 
   /* BUTTONS */
   --primary-button: #4caf50;
@@ -340,14 +342,14 @@ a {
 /* CARD */
 .card {
   padding: 4rem;
-  background-color: var(--blanco);
+  background-color: var(--color-blanco);
   border-radius: 0.3rem;
   box-shadow: 0px 0px 30px rgba(221, 221, 221, 0.3);
 }
 
 /*NAVBAR*/
 .nav {
-  background-color: var(--background-1);
+  background-color: var(--color-principal);
   display: flex;
   flex-direction: wrap;
 }
@@ -359,7 +361,7 @@ a {
 }
 
 .nav a {
-  color: var(--verde);
+  color: var(--color-blanco);
   text-decoration: none;
   display: flex;
   height: 4rem;
@@ -371,30 +373,28 @@ a {
 }
 .nav a.activo,
 .nav a:hover {
-  background-color: var(--blanco);
-  color: var(--negro);
+  /* background-color: var(--blanco); */
+  color: var(--color-cta);
 }
 
 /* BOTONES */
 .button {
-  background-color: var(--primary-button);
-  border: none;
+  background-color: var(--color-blanco);
+  border: 1px solid var(--color-cta);
   cursor: pointer;
-  color: #eee;
+  /* font-weight: bold; */
+  color: var(--color-texto);
   display: inline-block;
-  padding: 10px 20px;
-  border-radius: 5px;
+  padding: 10px 16px;
+  border-radius: 3px;
   text-align: center;
   line-height: 22px;
   transition: 0.3s ease all;
 }
 
 .button:hover {
-  background-color: var(--primary-button-hover);
-}
-
-.button a {
-  color: var(--blanco);
+  box-shadow: inset 400px 0 0 0 var(--color-cta);
+  color: var(--color-blanco);
 }
 
 /* Agregar otros colores de botones */
