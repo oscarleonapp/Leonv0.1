@@ -3,36 +3,15 @@
 
 /* ========= * VARIABLES * ========= */
 :root {
-  --background-1: #13161c;
-  --background-2: #2c323c;
-  --background-3: #1c2028;
-
-  /* COLORES A QUEDARSE */
   --color-principal: #1c2028;
-  --color-fondo: #ecf0f1;
+  --color-fondo: #f5f8fa;
   --color-blanco: #ffffff;
+  --color-gris: #cee5cd;
   --color-texto: #13161c;
   --color-cta: #07c373;
+  --color-peligro: #e74c3c;
 
-  /* BUTTONS */
-  --primary-button: #4caf50;
-  --primary-button-hover: #45a049;
-  --primary-button-active: #3e8e41;
-
-  --light: #f6f6f9;
-  --primary: #1976d2;
-  --light-primary: #cfe8ff;
-  --grey: #eee;
-  --dark-grey: #aaaaaa;
-  --dark: #363949;
-  --danger: #d32f2f;
-  --light-danger: #fecdd3;
-  --warning: #fbc02d;
-  --light-warning: #fff2c6;
-  --success: #388e3c;
-  --light-success: #bbf7d0;
-
-  --card: #eff3f8;
+  /* Contenedores */
   --ancho-contenedor: 1200px;
   --box-shadow: linear-gradient(
     180deg,
@@ -54,7 +33,7 @@ html {
 }
 
 body {
-  background-color: var(--light);
+  background-color: var(--color-fondo);
   font-size: 1.8rem;
 }
 
@@ -379,13 +358,13 @@ a {
 
 /* BOTONES */
 .button {
-  background-color: var(--color-blanco);
+  background-color: var(--color-gris);
   border: 1px solid var(--color-cta);
   cursor: pointer;
-  /* font-weight: bold; */
+  font-weight: bold;
   color: var(--color-texto);
   display: inline-block;
-  padding: 10px 16px;
+  padding: 8px 16px;
   border-radius: 3px;
   text-align: center;
   line-height: 22px;
