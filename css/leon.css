@@ -323,7 +323,8 @@ a {
   padding: 4rem;
   background-color: var(--color-blanco);
   border-radius: 0.3rem;
-  box-shadow: 0px 0px 30px rgba(221, 221, 221, 0.3);
+  /* box-shadow: 0px 0px 30px rgba(221, 221, 221, 0.3); */
+  box-shadow: var(--box-shadow);
 }
 
 /*NAVBAR*/
@@ -331,6 +332,7 @@ a {
   background-color: var(--color-principal);
   display: flex;
   flex-direction: wrap;
+  box-sizing: var(--box-shadow);
 }
 
 .nav .contenedor {
@@ -358,7 +360,7 @@ a {
 
 /* BOTONES */
 .button {
-  background-color: var(--color-gris);
+  background-color: var(--color-fondo);
   border: 1px solid var(--color-cta);
   cursor: pointer;
   font-weight: bold;
