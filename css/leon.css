@@ -395,12 +395,20 @@ a {
   box-shadow: var(--box-shadow);
 }
 
+header {
+  margin-bottom: 60px;
+}
+
 /*NAVBAR*/
 .nav {
   background-color: var(--color-principal);
   display: flex;
   flex-direction: wrap;
   box-sizing: var(--box-shadow);
+  position: fixed;
+  top: 0;
+  width: 100%;
+
 }
 
 .nav .contenedor {
@@ -413,12 +421,12 @@ a {
   color: var(--color-blanco);
   text-decoration: none;
   display: flex;
-  height: 4rem;
+  height: 4.5rem;
   align-items: center;
   text-align: center;
   padding: 10px 15px;
   transition: 0.3s ease all;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .nav a.activo,
