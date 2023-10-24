@@ -17,9 +17,11 @@
 
   /* Contenedores */
   --ancho-contenedor: 1200px;
-  --box-shadow: linear-gradient(180deg,
-      rgba(255, 255, 255, 0.15),
-      rgba(255, 255, 255, 0));
+  --box-shadow: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
 }
 
 /* ========= * CONFIGURACIÓN * ========= */
@@ -51,6 +53,10 @@ img {
 a {
   text-decoration: none;
   color: var(--negro);
+}
+/* Probar funcion */
+a {
+  cursor: url(../img/cursor-icon.png), auto;
 }
 
 /* ========= * CONTENEDORES * ========= */
