@@ -397,6 +397,10 @@ a {
 }
 
 /* ========= * COMPONENTES * ========= */
+.hero {
+  width: 100%;
+  height: 100vh;
+}
 
 /* CARD */
 .card {
