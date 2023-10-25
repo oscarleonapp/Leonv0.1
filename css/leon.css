@@ -12,6 +12,7 @@
   --color-card: #fbfbfd;
   --color-gris: #cee5cd;
   --color-texto: #13161c;
+  --color-border: #eff1f6;
   --color-cta: #07c373;
   --color-peligro: #e74c3c;
 
@@ -399,6 +400,7 @@ a {
   border-radius: 0.3rem;
   /* box-shadow: 0px 0px 30px rgba(221, 221, 221, 0.3); */
   box-shadow: var(--box-shadow);
+  border: 1px solid var(--color-border);
 }
 
 header {
@@ -407,14 +409,14 @@ header {
 
 /*NAVBAR*/
 .nav {
-  background-color: var(--color-principal);
+  background-color: var(--color-blanco);
   display: flex;
   flex-direction: wrap;
   box-sizing: var(--box-shadow);
   position: fixed;
   top: 0;
   width: 100%;
-
+  border-bottom: 1px solid var(--color-border);
 }
 
 .nav .contenedor {
@@ -424,7 +426,7 @@ header {
 }
 
 .nav a {
-  color: var(--color-blanco);
+  color: var(--color-texto);
   text-decoration: none;
   display: flex;
   height: 4.5rem;
@@ -432,13 +434,14 @@ header {
   text-align: center;
   padding: 10px 15px;
   transition: 0.3s ease all;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .nav a.activo,
 .nav a:hover {
   /* background-color: var(--blanco); */
   color: var(--color-cta);
+  font-weight: 700;
 }
 
 /* BOTONES */
@@ -558,8 +561,6 @@ form .input:focus {
 .texto-derecha {
   text-align: right;
 }
-<<<<<<< HEAD
-=======
 
 /* Add this attribute to the element that needs a tooltip */
 [data-tooltip] {
@@ -623,4 +624,3 @@ form .input:focus {
   filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
->>>>>>> 5006ab23e175da2caa0eb42bff862822938a6c59
